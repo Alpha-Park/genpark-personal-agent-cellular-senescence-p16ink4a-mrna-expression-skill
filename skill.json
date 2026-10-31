@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-cellular-senescence-p16ink4a-mrna-expression-skill",
+  "version": "1.0.0",
+  "description": "T-cell CDKN2A p16INK4a mRNA biological senescence quotient and Senescence-Associated Secretory Phenotype (SASP) risk index.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_p16ink4a_senescence_expression",
+      "description": "T-cell CDKN2A p16INK4a mRNA biological senescence quotient and Senescence-Associated Secretory Phenotype (SASP) risk index.",
+      "sample_input": {
+        "p16_log2_fold_change": 0.85,
+        "chronological_age_years": 45,
+        "il6_pg_ml": 2.1,
+        "crp_mg_l": 1.1
+      }
+    }
+  ]
+}
